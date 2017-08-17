@@ -1,172 +1,495 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+}
 
 #container {
   width: 100%;
-  min-height: 2000px; }
+  min-height: 2000px;
+  overflow: hidden;
+}
 
 .header {
   width: 1000px;
   height: 78px;
   margin: 0 auto;
-  position: relative; }
-  .header .logo {
-    display: inline-block;
-    width: 153px;
-    height: 37px;
-    background: url("../images/logo.png");
-    margin-top: 20px; }
-  .header .searbox {
-    width: 300px;
-    height: 36px;
-    border: 1px solid #ccc;
-    margin-left: 190px;
-    margin-top: -39px; }
-    .header .searbox .sear {
-      width: 249px;
-      height: 34px;
-      border: none;
-      margin-left: 14px;
-      outline: none; }
-    .header .searbox .sear-btn {
-      width: 34px;
-      height: 34px;
-      margin-top: -34px;
-      margin-left: 265px; }
-      .header .searbox .sear-btn a {
-        width: 34px;
-        height: 34px;
-        display: block;
-        text-decoration: none;
-        text-align: center;
-        line-height: 40px; }
-    .header .searbox .icon-sousuo1 {
-      font-size: 18px;
-      color: #707070; }
-    .header .searbox .icon-sousuo1:hover {
-      color: #0C8ED9; }
-  .header .topmenu {
-    width: 262px;
-    height: 19px;
-    border-right: 1px solid #e6e6e6;
-    margin-left: 600px;
-    margin-top: -30px; }
-    .header .topmenu li {
-      float: left;
-      padding: 0 15px 0 15px;
-      font-size: 13px; }
-      .header .topmenu li a {
-        text-decoration: none;
-        color: #777; }
-      .header .topmenu li a:hover {
-        color: #009af3; }
-  .header .login {
-    display: inline-block;
-    width: 48px;
-    height: 28px;
-    border: 1px solid #169af3;
-    background-color: #169af3;
-    border-radius: 5%;
-    text-decoration: none;
-    color: white;
-    font-size: 13px;
-    text-align: center;
-    line-height: 28px; }
-  .header .login:hover {
-    background: #158fe1; }
-  .header .register {
-    display: inline-block;
-    width: 48px;
-    margin-left: 5px;
-    height: 28px;
-    border: 1px solid #dbdbdb;
-    border-radius: 5%;
-    text-decoration: none;
-    color: #777;
-    font-size: 13px;
-    text-align: center;
-    line-height: 28px; }
-  .header .register:hover {
-    color: #169af3;
-    border: 1px solid #169af3; }
-  .header .btn {
-    margin-left: 890px;
-    margin-top: -25px; }
+  position: relative;
+}
+
+.header .logo {
+  display: inline-block;
+  width: 153px;
+  height: 37px;
+  background: url("../images/logo.png");
+  margin-top: 20px;
+}
+
+.header .searbox {
+  width: 300px;
+  height: 36px;
+  border: 1px solid #ccc;
+  margin-left: 190px;
+  margin-top: -39px;
+}
+
+.header .searbox .sear {
+  width: 249px;
+  height: 34px;
+  border: none;
+  margin-left: 14px;
+  outline: none;
+}
+
+.header .searbox .sear-btn {
+  width: 34px;
+  height: 34px;
+  margin-top: -34px;
+  margin-left: 265px;
+}
+
+.header .searbox .sear-btn a {
+  width: 34px;
+  height: 34px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.header .searbox .icon-sousuo1 {
+  font-size: 18px;
+  color: #707070;
+}
+
+.header .searbox .icon-sousuo1:hover {
+  color: #0C8ED9;
+}
+
+.header .topmenu {
+  width: 262px;
+  height: 19px;
+  border-right: 1px solid #e6e6e6;
+  margin-left: 600px;
+  margin-top: -30px;
+}
+
+.header .topmenu li {
+  float: left;
+  padding: 0 15px 0 15px;
+  font-size: 13px;
+}
+
+.header .topmenu li a {
+  text-decoration: none;
+  color: #777;
+}
+
+.header .topmenu li a:hover {
+  color: #009af3;
+}
+
+.header .login {
+  display: inline-block;
+  width: 48px;
+  height: 28px;
+  border: 1px solid #169af3;
+  background-color: #169af3;
+  border-radius: 5%;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.header .login:hover {
+  background: #158fe1;
+}
+
+.header .register {
+  display: inline-block;
+  width: 48px;
+  margin-left: 5px;
+  height: 28px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5%;
+  text-decoration: none;
+  color: #777;
+  font-size: 13px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.header .register:hover {
+  color: #169af3;
+  border: 1px solid #169af3;
+}
+
+.header .btn {
+  margin-left: 890px;
+  margin-top: -25px;
+}
 
 #nav {
   width: 100%;
   height: 55px;
   background: #2c323b;
-  display: flex; }
-  #nav .navleft {
-    width: 445px;
-    height: 100%;
-    margin-left: 130px; }
-    #nav .navleft li {
-      width: 80px;
-      height: 100%;
-      line-height: 55px;
-      float: left;
-      text-align: center; }
-      #nav .navleft li > a {
-        display: block;
-        text-decoration: none;
-        color: #ddd; }
-      #nav .navleft li a:hover {
-        color: white; }
-      #nav .navleft li .first {
-        color: white; }
-      #nav .navleft li:first-Child {
-        width: 92px;
-        margin-left: 4px;
-        background: #0c8ed9; }
-      #nav .navleft li:nth-of-type(2) {
-        width: 92px; }
-      #nav .navleft li:nth-of-type(2):hover {
-        background: #0c8ed9; }
-      #nav .navleft li:nth-of-type(3) {
-        width: 140px; }
-      #nav .navleft li:nth-of-type(3):hover {
-        background: #0c8ed9; }
-      #nav .navleft li:nth-of-type(4) {
-        width: 113px; }
-      #nav .navleft li:nth-of-type(4):hover {
-        background: #0c8ed9; }
-        #nav .navleft li:nth-of-type(4):hover .select {
-          display: block; }
-    #nav .navleft .select {
-      width: 113px;
-      height: 146px;
-      margin-top: -2px;
-      display: none;
-      background: #252a32; }
-      #nav .navleft .select > a {
-        margin-top: 0px;
-        display: block;
-        border-top: 1px solid #252a32;
-        width: 113px;
-        height: 34px;
-        text-align: center;
-        line-height: 36px;
-        color: #ddd; }
-      #nav .navleft .select > a:hover {
-        background: #2d343d;
-        border-top: 1px solid #383d44; }
-  #nav .navright {
-    width: 486px;
-    height: 35px;
-    border: 1px solid red;
-    margin-top: 10px;
-    margin-left: 150px; }
-    #nav .navright > li {
-      float: left;
-      line-height: 35px;
-      margin-left: 30px; }
-      #nav .navright > li > a {
-        text-decoration: none;
-        color: #ddd;
-        font-size: 16px; }
-        #nav .navright > li > a i {
-          font-size: 13px; }
+  display: flex;
+}
+
+#nav .navleft {
+  width: 445px;
+  height: 100%;
+  margin-left: 130px;
+}
+
+#nav .navleft li {
+  width: 80px;
+  height: 100%;
+  line-height: 55px;
+  float: left;
+  text-align: center;
+}
+
+#nav .navleft li > a {
+  display: block;
+  text-decoration: none;
+  color: #ddd;
+}
+
+#nav .navleft li a:hover {
+  color: white;
+}
+
+#nav .navleft li .first {
+  color: white;
+}
+
+#nav .navleft li:first-Child {
+  width: 92px;
+  margin-left: 4px;
+  background: #0c8ed9;
+}
+
+#nav .navleft li:nth-of-type(2) {
+  width: 92px;
+}
+
+#nav .navleft li:nth-of-type(2):hover {
+  background: #0c8ed9;
+}
+
+#nav .navleft li:nth-of-type(3) {
+  width: 140px;
+}
+
+#nav .navleft li:nth-of-type(3):hover {
+  background: #0c8ed9;
+}
+
+#nav .navleft li:nth-of-type(4) {
+  width: 113px;
+}
+
+#nav .navleft li:nth-of-type(4):hover {
+  background: #0c8ed9;
+}
+
+#nav .navleft li:nth-of-type(4):hover .select {
+  display: block;
+}
+
+#nav .navleft .select {
+  width: 113px;
+  height: 141px;
+  margin-top: -2px;
+  display: none;
+  background: #252a32;
+  z-index: 9999;
+  position: absolute;
+}
+
+#nav .navleft .select > a {
+  margin-top: 0px;
+  display: block;
+  border-top: 1px solid #252a32;
+  width: 113px;
+  height: 34px;
+  text-align: center;
+  line-height: 36px;
+  color: #ddd;
+}
+
+#nav .navleft .select > a:hover {
+  background: #2d343d;
+  border-top: 1px solid #383d44;
+}
+
+#nav .navright {
+  width: 486px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+#nav .navright > li {
+  float: left;
+  line-height: 35px;
+  margin-left: 30px;
+}
+
+#nav .navright > li > a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 13px;
+}
+
+#nav .navright > li > a i {
+  padding-right: 5px;
+}
+
+#nav .navright > li a:hover {
+  color: #14a9ff;
+}
+
+#nav .navright > li .iconfont {
+  font-size: 14px;
+}
+
+#ppt {
+  width: 100%;
+  height: 445px;
+  position: relative;
+}
+
+#ppt > ul > img {
+  position: absolute;
+  left: -330px;
+  top: 0;
+  display: none;
+}
+
+#ppt > ul > img:first-Child {
+  display: block;
+}
+
+#ppt > ol {
+  position: absolute;
+  top: 350px;
+  left: 510px;
+  width: 240px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#ppt > ol > a {
+  margin-left: 10px;
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  margin-top: 5px;
+}
+
+#ppt .active {
+  width: 15px;
+  height: 15px;
+  margin-top: 0px;
+  border-radius: 50%;
+  background: white;
+}
+
+#ppt .left {
+  width: 60px;
+  height: 120px;
+  position: absolute;
+  top: 140px;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+#ppt .left .iconfont {
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  color: #DECECE;
+  font-size: 70px;
+}
+
+#ppt .left:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#ppt .left:hover .iconfont {
+  color: white;
+}
+
+#ppt .right {
+  width: 60px;
+  height: 120px;
+  position: absolute;
+  top: 140px;
+  left: -20px;
+  left: 1202px;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+#ppt .right .iconfont {
+  position: absolute;
+  top: 30px;
+  right: -10px;
+  color: #DECECE;
+  font-size: 70px;
+}
+
+#ppt .right:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#ppt .right:hover .iconfont {
+  color: white;
+}
+
+#ppt .load {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 385px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#ppt .load .edition {
+  width: 745px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#ppt .load .edition .first {
+  display: inline-block;
+  width: 130px;
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 90px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+#ppt .load .edition .first img {
+  margin-left: 15px;
+}
+
+#ppt .load .edition .first span {
+  position: absolute;
+  top: 3px;
+  margin-left: 15px;
+}
+
+#ppt .load .edition .second {
+  display: inline-block;
+  width: 250px;
+  height: 25px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+#ppt .load .edition .second img {
+  padding-left: 50px;
+}
+
+#ppt .load .edition .second span {
+  position: absolute;
+  top: 3px;
+  margin-left: 15px;
+}
+
+#ppt .load .edition .three {
+  display: inline-block;
+  position: relative;
+  width: 170px;
+  height: 25px;
+  margin-left: 50px;
+  color: white;
+}
+
+#ppt .load .edition .three span {
+  position: absolute;
+  top: 3px;
+  margin-left: 15px;
+}
+
+#title {
+  width: 1000px;
+  min-height: 1000px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+#title .firsttitle {
+  display: inline-block;
+  margin-top: 30px;
+  width: 630px;
+  height: 60px;
+}
+
+#title .firsttitle p {
+  display: inline-block;
+  line-height: 60px;
+  font-size: 30px;
+  color: #555;
+}
+
+#title .firsttitle p span {
+  color: #009af3;
+}
+
+#title .firsttitle a {
+  text-decoration: none;
+  color: #999;
+  float: right;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#title .firsttitle a:hover {
+  color: #009af3;
+}
+
+#title .twotitle {
+  width: 320px;
+  height: 60px;
+  float: right;
+  margin-top: 30px;
+}
+
+#title .twotitle p {
+  display: inline-block;
+  line-height: 60px;
+  font-size: 30px;
+  color: #555;
+}
+
+#title .twotitle p span {
+  color: #009af3;
+}
+
+#title .twotitle a {
+  text-decoration: none;
+  color: #999;
+  float: right;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#title .twotitle a:hover {
+  color: #009af3;
+}
