@@ -429,27 +429,16 @@
 
 #title {
   width: 1000px;
-  min-height: 1000px;
-  border: 1px solid red;
+  min-height: 550px;
   margin: 0 auto;
 }
 
 #title .firsttitle {
   display: inline-block;
   margin-top: 30px;
-  width: 630px;
+  width: 640px;
   height: 60px;
-}
-
-#title .firsttitle p {
-  display: inline-block;
-  line-height: 60px;
-  font-size: 30px;
-  color: #555;
-}
-
-#title .firsttitle p span {
-  color: #009af3;
+  background: url("../images/hot1.jpg") no-repeat 0 15px;
 }
 
 #title .firsttitle a {
@@ -469,17 +458,7 @@
   height: 60px;
   float: right;
   margin-top: 30px;
-}
-
-#title .twotitle p {
-  display: inline-block;
-  line-height: 60px;
-  font-size: 30px;
-  color: #555;
-}
-
-#title .twotitle p span {
-  color: #009af3;
+  background: url("../images/hot.jpg") no-repeat 0 15px;
 }
 
 #title .twotitle a {
@@ -492,4 +471,873 @@
 
 #title .twotitle a:hover {
   color: #009af3;
+}
+
+#pic {
+  width: 1000px;
+  height: 340px;
+  margin-top: 10px;
+}
+
+.left-pic {
+  width: 650px;
+  height: 330px;
+  float: left;
+}
+
+.left-pic .big {
+  width: 325px;
+  height: 325px;
+  display: inline-block;
+  position: relative;
+}
+
+.left-pic .big .shadow {
+  width: 325px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 275px;
+  left: 0;
+}
+
+.left-pic .big .shadow .ms {
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.left-pic .big .shadow .singer {
+  color: #cfcfcf;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.left-pic .big .bigshadow {
+  display: inline-block;
+  width: 325px;
+  height: 325px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+  text-decoration: none;
+}
+
+.left-pic .big .bigshadow .border {
+  position: absolute;
+  left: 280px;
+  top: 283px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+  border: 2px solid gray;
+}
+
+.left-pic .big .bigshadow .border i {
+  margin-left: 5px;
+  font-size: 25px;
+  color: white;
+}
+
+.left-pic .big .bigshadow .border:hover {
+  border: 2px solid white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.left-pic .big .flux {
+  width: 160px;
+  height: 30px;
+  color: white;
+  position: absolute;
+  padding-right: 10px;
+  left: 155px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 13px;
+  display: inline-block;
+  background: url("../images/Bg.png");
+}
+
+.left-pic .big .flux span {
+  position: absolute;
+  left: 100px;
+  font-size: 15px;
+}
+
+.left-pic .four {
+  width: 324px;
+  height: 325px;
+  float: right;
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-pic .four .spicone {
+  width: 160px;
+  height: 160px;
+  margin-left: 1px;
+  position: relative;
+}
+
+.left-pic .four .spicone .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  display: none;
+}
+
+.left-pic .four .spicone .shadow .border {
+  position: absolute;
+  left: 120px;
+  top: 117px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  border: 2px solid gray;
+}
+
+.left-pic .four .spicone .shadow .border i {
+  margin-left: 4px;
+  font-size: 25px;
+  color: white;
+}
+
+.left-pic .four .spicone .shadow .border:hover {
+  border: 2px solid white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.left-pic .four .spicone .fourflux {
+  width: 130px;
+  height: 30px;
+  color: white;
+  position: absolute;
+  padding-right: 10px;
+  left: 20px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 13px;
+  display: inline-block;
+  background: url("../images/Bg.png");
+}
+
+.left-pic .four .spicone .fourflux span {
+  position: absolute;
+  left: 65px;
+  font-size: 15px;
+}
+
+.left-pic .four .spicone .bt-shadow {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 109px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.left-pic .four .spicone .bt-shadow p {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.left-pic .four .spicone .bt-shadow .bt-title {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #cfcfcf;
+}
+
+.left-pic .four .spictwo {
+  width: 160px;
+  height: 160px;
+  margin-left: 3px;
+  position: relative;
+}
+
+.left-pic .four .spictwo .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  display: none;
+}
+
+.left-pic .four .spictwo .shadow .border {
+  position: absolute;
+  left: 120px;
+  top: 117px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  border: 2px solid gray;
+}
+
+.left-pic .four .spictwo .shadow .border i {
+  margin-left: 4px;
+  font-size: 25px;
+  color: white;
+}
+
+.left-pic .four .spictwo .shadow .border:hover {
+  border: 2px solid white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.left-pic .four .spictwo .fourflux {
+  width: 130px;
+  height: 30px;
+  color: white;
+  position: absolute;
+  padding-right: 10px;
+  left: 20px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 13px;
+  display: inline-block;
+  background: url("../images/Bg.png");
+}
+
+.left-pic .four .spictwo .fourflux span {
+  position: absolute;
+  left: 65px;
+  font-size: 15px;
+}
+
+.left-pic .four .spictwo .bt-shadow {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 109px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.left-pic .four .spictwo .bt-shadow p {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.left-pic .four .spictwo .bt-shadow .bt-title {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #cfcfcf;
+}
+
+.left-pic .four .spicthree {
+  width: 160px;
+  height: 160px;
+  margin-left: 1px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.left-pic .four .spicthree .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  display: none;
+}
+
+.left-pic .four .spicthree .shadow .border {
+  position: absolute;
+  left: 120px;
+  top: 117px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  border: 2px solid gray;
+}
+
+.left-pic .four .spicthree .shadow .border i {
+  margin-left: 4px;
+  font-size: 25px;
+  color: white;
+}
+
+.left-pic .four .spicthree .shadow .border:hover {
+  border: 2px solid white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.left-pic .four .spicthree .fourflux {
+  width: 130px;
+  height: 30px;
+  color: white;
+  position: absolute;
+  padding-right: 10px;
+  left: 20px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 13px;
+  display: inline-block;
+  background: url("../images/Bg.png");
+}
+
+.left-pic .four .spicthree .fourflux span {
+  position: absolute;
+  left: 65px;
+  font-size: 15px;
+}
+
+.left-pic .four .spicthree .bt-shadow {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 109px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.left-pic .four .spicthree .bt-shadow p {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.left-pic .four .spicthree .bt-shadow .bt-title {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #cfcfcf;
+}
+
+.left-pic .four .spicfour {
+  width: 160px;
+  height: 160px;
+  margin-left: 3px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.left-pic .four .spicfour .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  display: none;
+}
+
+.left-pic .four .spicfour .shadow .border {
+  position: absolute;
+  left: 120px;
+  top: 117px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  border: 2px solid gray;
+}
+
+.left-pic .four .spicfour .shadow .border i {
+  margin-left: 4px;
+  font-size: 25px;
+  color: white;
+}
+
+.left-pic .four .spicfour .shadow .border:hover {
+  border: 2px solid white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.left-pic .four .spicfour .fourflux {
+  width: 130px;
+  height: 30px;
+  color: white;
+  position: absolute;
+  padding-right: 10px;
+  left: 20px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 13px;
+  display: inline-block;
+  background: url("../images/Bg.png");
+}
+
+.left-pic .four .spicfour .fourflux span {
+  position: absolute;
+  left: 65px;
+  font-size: 15px;
+}
+
+.left-pic .four .spicfour .bt-shadow {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 109px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.left-pic .four .spicfour .bt-shadow p {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.left-pic .four .spicfour .bt-shadow .bt-title {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #cfcfcf;
+}
+
+.right-pic {
+  width: 320px;
+  height: 325px;
+  float: right;
+}
+
+.right-pic .top {
+  width: 100%;
+  height: 98px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.right-pic .top .img {
+  position: relative;
+  width: 98px;
+  height: 98px;
+  display: inline-block;
+}
+
+.right-pic .top .img .imgshadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.right-pic .top .img .imgshadow .border {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 35px;
+  border: 2px solid gray;
+}
+
+.right-pic .top .img .imgshadow .border i {
+  margin-left: 4px;
+  font-size: 25px;
+  color: white;
+}
+
+.right-pic .top .img .imgshadow .border:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+}
+
+.right-pic .top .list {
+  float: right;
+  display: inline-block;
+  width: 220px;
+  height: 98px;
+  display: inline-block;
+  background: #F6F6F6;
+  text-decoration: none;
+}
+
+.right-pic .top .list h3 {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: black;
+}
+
+.right-pic .top .list div {
+  width: 180px;
+  height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #555;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.right-pic .top span {
+  position: absolute;
+  top: 45px;
+  left: 300px;
+  color: gray;
+}
+
+.right-pic .middle {
+  width: 100%;
+  height: 98px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.right-pic .middle .img {
+  position: relative;
+  width: 98px;
+  height: 98px;
+  display: inline-block;
+}
+
+.right-pic .middle .img .imgshadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.right-pic .middle .img .imgshadow .border {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 35px;
+  border: 2px solid gray;
+}
+
+.right-pic .middle .img .imgshadow .border i {
+  margin-left: 4px;
+  font-size: 25px;
+  color: white;
+}
+
+.right-pic .middle .img .imgshadow .border:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+}
+
+.right-pic .middle .list {
+  float: right;
+  display: inline-block;
+  width: 220px;
+  height: 98px;
+  display: inline-block;
+  background: #F6F6F6;
+  text-decoration: none;
+}
+
+.right-pic .middle .list h3 {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: black;
+}
+
+.right-pic .middle .list div {
+  width: 180px;
+  height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #555;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.right-pic .middle span {
+  position: absolute;
+  top: 45px;
+  left: 300px;
+  color: gray;
+}
+
+.right-pic .bottom {
+  width: 100%;
+  height: 98px;
+  margin-bottom: 13px;
+  position: relative;
+}
+
+.right-pic .bottom .img {
+  position: relative;
+  width: 98px;
+  height: 98px;
+  display: inline-block;
+}
+
+.right-pic .bottom .img .imgshadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.right-pic .bottom .img .imgshadow .border {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 35px;
+  border: 2px solid gray;
+}
+
+.right-pic .bottom .img .imgshadow .border i {
+  margin-left: 4px;
+  font-size: 25px;
+  color: white;
+}
+
+.right-pic .bottom .img .imgshadow .border:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+}
+
+.right-pic .bottom .list {
+  float: right;
+  display: inline-block;
+  width: 220px;
+  height: 98px;
+  display: inline-block;
+  background: #F6F6F6;
+  text-decoration: none;
+}
+
+.right-pic .bottom .list h3 {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: black;
+}
+
+.right-pic .bottom .list div {
+  width: 180px;
+  height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #555;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.right-pic .bottom span {
+  position: absolute;
+  top: 45px;
+  left: 300px;
+  color: gray;
+}
+
+.advertising {
+  display: inline-block;
+  width: 1000px;
+  height: 80px;
+}
+
+#menu {
+  width: 1000px;
+  min-height: 500px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+#menu .new {
+  width: 650px;
+  height: 50px;
+  position: relative;
+  background: url("../images/new.jpg") no-repeat 0 15px;
+}
+
+#menu .new .playall {
+  position: absolute;
+  left: 555px;
+  top: 10px;
+  width: 91px;
+  height: 31px;
+  border: 1px solid #dbdbdb;
+  outline: none;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  background: white;
+  color: #555;
+}
+
+#menu .new .playall span {
+  color: gray;
+}
+
+#menu .new .playall:hover {
+  color: #009af3;
+  border: 1px solid #009af3;
+}
+
+#menu .new .playall:hover span {
+  color: #009af3;
+}
+
+#menu .new ul {
+  width: 192px;
+  height: 23px;
+  position: absolute;
+  left: 145px;
+  top: 19px;
+}
+
+#menu .new ul li {
+  float: left;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+#menu .new ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu .new ul .active {
+  color: #009af3;
+}
+
+#menu .new .content {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  top: 60px;
+}
+
+#menu .new .content .hide {
+  display: none;
+}
+
+#menu .new .content .sex {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #f0f0f0;
+}
+
+#menu .new .content .sex .firstmusic {
+  width: 650px;
+  height: 35px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+#menu .new .content .sex .firstmusic .topmusic {
+  width: 100%;
+  height: 35px;
+  line-height: 34px;
+  position: relative;
+}
+
+#menu .new .content .sex .firstmusic .topmusic span {
+  color: #333;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+#menu .new .content .sex .firstmusic .topmusic .unique {
+  position: absolute;
+  top: 13px;
+  display: inline-block;
+  width: 21px;
+  height: 12px;
+  background: url("../images/first.png");
+}
+
+#menu .new .content .sex .firstmusic .topmusic .icon-xiazai {
+  position: absolute;
+  left: 570px;
+  top: 0;
+  color: gray;
+  font-size: 15px;
+  display: none;
+}
+
+#menu .new .content .sex .firstmusic .topmusic .time {
+  position: absolute;
+  left: 595px;
+}
+
+#menu .new .content .sex .firstmusic .topmusic .icon-bofang {
+  position: absolute;
+  top: 0;
+  left: 545px;
+  font-size: 15px;
+  color: gray;
+  display: none;
+}
+
+#menu .new .content .sex .firstmusic .topmusic:hover {
+  background: #f5f8fb;
+}
+
+#menu .new .content .sex .firstmusic .topmusic:hover .musicsingger,
+#menu .new .content .sex .firstmusic .topmusic:hover .time {
+  color: #009af3;
+}
+
+#menu .new .content .sex .firstmusic .topmusic:hover .unique {
+  display: none;
+}
+
+#menu .new .content .sex .firstmusic .topmusic:hover .icon-xiazai {
+  color: gray;
+  display: block;
+}
+
+#menu .new .content .sex .firstmusic .topmusic:hover .icon-bofang {
+  display: block;
 }
