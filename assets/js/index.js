@@ -177,3 +177,90 @@ $('.firstmusic>.topmusic>.icon-bofang').mouseover(function() {
 }).mouseout(function() {
     $(this).css('color', 'gray');
 })
+
+
+
+$('.righttwo>.youfour>a').mouseover(function() {
+    $('.righttwo>div>.rto').css('display', 'inline-block');
+    $('.righttwo>.youfour>.textone').css('color', '#009af3');
+}).mouseout(function() {
+    $('.righttwo>div>.rto').css('display', 'none');
+    $('.righttwo>.youfour>.textone').css('color', '#444');
+});
+$('.righttwo>.youfour').mouseover(function() {
+    $('.righttwo>div>.rto').css('display', 'inline-block');
+}).mouseout(function() {
+    $('.righttwo>div>.rto').css('display', 'none');
+})
+
+
+$('.righttwo>.youfive>.texttwo').mouseover(function(){
+    $('.righttwo>.youfive>.texttwo').css('color','#009af3');
+}).mouseout(function(){
+    $('.righttwo>.youfive>.texttwo').css('color','black');
+})
+
+
+
+/*第二个选项卡*/
+
+var b = document.querySelectorAll('.rightbox>.hotsinger>.hotsingerul>li>a');
+console.log(b);
+var c = document.querySelectorAll('.rightbox>.hotsinger>.details>div');
+console.log(c);
+var len = b.length;
+for (var i = 0; i < len; i++) {
+    b[i].onmouseover = function() {
+        for (var j = 0; j < len; j++) {
+            c[j].className="hide";
+            b[j].className="";
+        }
+        var index = this.getAttribute('data-index');
+        c[index].className="detailsone";
+        b[index].className="active";
+    }
+}
+
+
+
+
+
+var d = document.querySelectorAll('.details>.detailsone>ul>li>a');
+console.log(b);
+var e = document.querySelectorAll('.details>.detailsone>.xxk>div');
+console.log(e);
+var len = d.length;
+for (var i = 0; i < len; i++) {
+    d[i].onmouseover = function() {
+        for (var j = 0; j < len; j++) {
+            e[j].className="remove";
+            d[j].className="";
+        }
+        var index = this.getAttribute('data-index');
+        e[index].className="xxkone";
+        d[index].className="activeone";
+    }
+}
+
+
+
+
+
+var f = document.querySelectorAll('.hide>.detailsone>ul>li>a');
+console.log(b);
+var g = document.querySelectorAll('.hide>.detailsone>.xxk>div');
+console.log(e);
+var len = d.length;
+for (var i = 0; i < len; i++) {
+    f[i].onmouseover = function() {
+        for (var j = 0; j < len; j++) {
+            g[j].className="remove";
+            f[j].className="";
+        }
+        var index = this.getAttribute('data-index');
+        g[index].className="xxkone";
+        f[index].className="activeone";
+    }
+}
+
+

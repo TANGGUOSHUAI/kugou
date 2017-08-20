@@ -6,7 +6,7 @@
 
 #container {
   width: 100%;
-  min-height: 2000px;
+  min-height: 2500px;
   overflow: hidden;
 }
 
@@ -166,7 +166,7 @@
   color: white;
 }
 
-#nav .navleft li:first-Child {
+#nav .navleft li:first-child {
   width: 92px;
   margin-left: 4px;
   background: #0c8ed9;
@@ -1186,9 +1186,9 @@
 
 #menu {
   width: 1000px;
-  min-height: 500px;
+  min-height: 430px;
   margin: 0 auto;
-  border: 1px solid red;
+  position: relative;
 }
 
 #menu .new {
@@ -1208,7 +1208,7 @@
   outline: none;
   text-decoration: none;
   font-size: 12px;
-  line-height: 30px;
+  line-height: 32px;
   text-align: center;
   background: white;
   color: #555;
@@ -1340,4 +1340,496 @@
 
 #menu .new .content .sex .firstmusic .topmusic:hover .icon-bofang {
   display: block;
+}
+
+#menu .rightcont {
+  width: 320px;
+  height: 370px;
+  float: right;
+  margin-top: -50px;
+  background: url("../images/tuijian.jpg") no-repeat 0 15px;
+}
+
+#menu .rightcont .rightone {
+  margin-top: 60px;
+  position: relative;
+}
+
+#menu .rightcont .rightone .imshadow {
+  width: 100%;
+  height: 175px;
+  text-decoration: none;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#menu .rightcont .rightone .imshadow .circle {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 63px;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+
+#menu .rightcont .rightone .imshadow .circle span {
+  color: white;
+  font-size: 30px;
+  line-height: 55px;
+  margin-left: 13px;
+}
+
+#menu .rightcont .rightone .imshadow .circle:hover {
+  border: 2px solid white;
+}
+
+#menu .rightcont .rightone .bsd {
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  padding-top: 3px;
+  top: 125px;
+  left: 0;
+}
+
+#menu .rightcont .rightone .bsd p {
+  color: #cfcfcf;
+  font-weight: none;
+  font-size: 14px;
+  margin-left: 7px;
+}
+
+#menu .rightcont .rightone .bsd .firstsay {
+  color: white;
+  font-size: 17px;
+}
+
+#menu .rightcont .rightone:hover .imshadow {
+  display: block;
+}
+
+#menu .rightcont span > a {
+  float: right;
+  text-decoration: none;
+  color: #999;
+  line-height: 60px;
+  font-size: 14px;
+}
+
+#menu .rightcont span > a:hover {
+  color: #009af3;
+}
+
+#menu .rightcont .righttwo {
+  width: 320px;
+  height: 125px;
+  margin-top: 5px;
+}
+
+#menu .rightcont .righttwo .youfour {
+  width: 154px;
+  height: 84px;
+  display: inline-block;
+  position: relative;
+}
+
+#menu .rightcont .righttwo .youfour .rto {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#menu .rightcont .righttwo .youfour .rto .iconfont {
+  width: 45px;
+  height: 45px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  padding-left: 2px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#menu .rightcont .righttwo .youfour .iconfont:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+}
+
+#menu .rightcont .righttwo .youfour .textone {
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  margin-top: -5px;
+  text-decoration: none;
+}
+
+#menu .rightcont .righttwo .youfour .textone span {
+  color: gray;
+  font-size: 13px;
+}
+
+#menu .rightcont .righttwo .youfour .textone:hover {
+  color: #009af3;
+}
+
+#menu .rightcont .righttwo .youfive {
+  width: 154px;
+  height: 84px;
+  float: right;
+  position: relative;
+}
+
+#menu .rightcont .righttwo .youfive .rtt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+
+#menu .rightcont .righttwo .youfive .rtt span {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  border: 2px solid gray;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+#menu .rightcont .righttwo .youfive .rtt span:hover {
+  border: 2px solid white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#menu .rightcont .righttwo .youfive .texttwo {
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  margin-top: -5px;
+  text-decoration: none;
+}
+
+#menu .rightcont .righttwo .youfive .texttwo span {
+  color: gray;
+  font-size: 13px;
+}
+
+#menu .rightcont .righttwo .youfive:hover .rtt {
+  display: inline-block;
+}
+
+.secondgg {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#next {
+  width: 1000px;
+  height: 380px;
+  border: 1px solid red;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#next .leftcircle {
+  width: 650px;
+  height: 371px;
+  display: inline-block;
+}
+
+#next .leftcircle .title {
+  width: 100%;
+  height: 40px;
+}
+
+#next .leftcircle .title h3 {
+  height: 40px;
+  color: white;
+  background: url("../images/hotredio.jpg") no-repeat 0 10px;
+}
+
+#next .leftcircle .title .more {
+  display: inline-block;
+  color: #999;
+  float: right;
+  margin-top: -20px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#next .leftcircle .title .more:hover {
+  color: #009af3;
+}
+
+#next .leftcircle li {
+  float: left;
+  margin-top: 20px;
+  position: relative;
+  margin-right: 30px;
+}
+
+#next .leftcircle li div > a {
+  text-decoration: none;
+  text-align: center;
+  line-height: 55px;
+  display: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#next .leftcircle li div > a span {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 5px;
+  font-size: 25px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#next .leftcircle li div > p {
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+
+#next .leftcircle ul > li:hover div > a {
+  display: inline-block;
+}
+
+#next .leftcircle ul > li:hover div > p {
+  color: #009af3;
+}
+
+#next .rightbox {
+  width: 330px;
+  height: 380px;
+  border: 1px solid red;
+  float: right;
+  position: relative;
+}
+
+#next .rightbox .hotsinger {
+  width: 330px;
+  height: 40px;
+  background: url("../images/hotsinger.jpg") no-repeat 0 10px;
+}
+
+#next .rightbox .hotsinger .hotsingerul {
+  margin-left: 150px;
+}
+
+#next .rightbox .hotsinger .hotsingerul li {
+  float: left;
+  margin-top: 15px;
+}
+
+#next .rightbox .hotsinger .hotsingerul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+#next .rightbox .hotsinger .hotsingerul li .active {
+  color: #009af3;
+}
+
+#next .rightbox .hotsinger .hotsingerul .more > a {
+  color: #999;
+}
+
+#next .rightbox .hotsinger .hotsingerul .more > a:hover {
+  color: #009af3;
+}
+
+#next .rightbox .hotsinger .details {
+  width: 330px;
+  height: 331px;
+  border: 1px solid red;
+  position: absolute;
+  top: 45px;
+}
+
+#next .rightbox .hotsinger .details .hide {
+  display: none;
+}
+
+#next .rightbox .hotsinger .details .detailsone {
+  position: relative;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk {
+  position: absolute;
+  width: 100%;
+  height: 295px;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .remove {
+  display: none;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head {
+  width: 330px;
+  height: 300px;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .big {
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  position: relative;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .big p {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  z-index: 10;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .big .headshadowone {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .big .headshadowone:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .bigtwo {
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-left: 5px;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .bigtwo p {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  z-index: 10;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .bigtwo .headshadowone {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .bigtwo .headshadowone:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .small {
+  width: 100%;
+  height: 105px;
+  margin-top: 5px;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .small .smallone {
+  width: 105px;
+  height: 105px;
+  float: left;
+  margin-right: 5px;
+  position: relative;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .small .smallone p {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  z-index: 10;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .small .smallone .smallshadow {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+#next .rightbox .hotsinger .details .detailsone .xxk .xxkone > .head .small .smallone .smallshadow:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#next .rightbox .hotsinger .details .detailsone > ul {
+  position: absolute;
+  top: 300px;
+  left: 130px;
+  width: 66px;
+  height: 15px;
+}
+
+#next .rightbox .hotsinger .details .detailsone > ul li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: gray;
+  float: left;
+  margin-left: 10px;
+}
+
+#next .rightbox .hotsinger .details .detailsone > ul li a {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#next .rightbox .hotsinger .details .detailsone > ul li .activeone {
+  background: #009af3;
+}
+
+#next .rightbox #img {
+  margin: 0 auto;
 }
