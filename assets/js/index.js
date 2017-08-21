@@ -226,9 +226,11 @@ for (var i = 0; i < len; i++) {
 
 
 
-
+// 小点
 var d = document.querySelectorAll('.details>.detailsone>ul>li>a');
 console.log(b);
+
+// 每组中三个div
 var e = document.querySelectorAll('.details>.detailsone>.xxk>div');
 console.log(e);
 var len = d.length;
@@ -237,10 +239,12 @@ for (var i = 0; i < len; i++) {
         for (var j = 0; j < len; j++) {
             e[j].className="remove";
             d[j].className="";
+            console.log('1111');
         }
         var index = this.getAttribute('data-index');
         e[index].className="xxkone";
         d[index].className="activeone";
+        console.log('111');
     }
 }
 
