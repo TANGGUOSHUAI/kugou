@@ -1546,7 +1546,6 @@
 #next {
   width: 1000px;
   height: 380px;
-  border: 1px solid red;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -1632,7 +1631,6 @@
 #next .rightbox {
   width: 330px;
   height: 380px;
-  border: 1px solid red;
   float: right;
   position: relative;
 }
@@ -1674,7 +1672,6 @@
 #next .rightbox .hotsinger .details {
   width: 330px;
   height: 331px;
-  border: 1px solid red;
   position: absolute;
   top: 45px;
 }
@@ -1830,6 +1827,202 @@
   background: #009af3;
 }
 
-#next .rightbox #img {
+#img {
+  width: 1000px;
+  height: 100px;
   margin: 0 auto;
+  margin-top: 10px;
+}
+
+#teamwork {
+  width: 1000px;
+  height: 326px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#teamwork h3 {
+  color: transparent;
+  height: 30px;
+  background: url("../images/partner.jpg") no-repeat 0 0;
+}
+
+#teamwork .team {
+  width: 100%;
+  height: 256px;
+  margin-top: 30px;
+}
+
+#teamwork .team .teamone {
+  width: 100%;
+  height: 60px;
+}
+
+#teamwork .team .teamone li {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 1px dashed gray;
+}
+
+#teamwork .team .teamtwo {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+}
+
+#teamwork .team .teamtwo li {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 1px dashed gray;
+}
+
+#teamwork .team .teamthree {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+}
+
+#teamwork .team .teamthree li {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 1px dashed gray;
+}
+
+#friend {
+  width: 1000px;
+  height: 168px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+#friend h3 {
+  height: 30px;
+  width: 100%;
+  display: inline-block;
+  background: url("../images/friendLink.jpg") no-repeat 0 0;
+  color: transparent;
+}
+
+#friend .more {
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #999;
+  position: absolute;
+  top: 5px;
+  left: 960px;
+}
+
+#friend .more:hover {
+  color: #009af3;
+}
+
+#friend .link {
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+}
+
+#friend .link ul li {
+  float: left;
+  margin-right: 60px;
+}
+
+#friend .link ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+}
+
+#friend .link ul li a:hover {
+  color: #009af3;
+}
+
+#friend .link .huawei li {
+  margin-top: 20px;
+  margin-right: 55px;
+}
+
+#footer {
+  width: 100%;
+  height: 298px;
+  background: #2C323B;
+}
+
+#footer .about {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #3d424a;
+}
+
+#footer .about ul {
+  margin-left: 100px;
+}
+
+#footer .about ul li {
+  float: left;
+  line-height: 50px;
+}
+
+#footer .about ul li a {
+  text-decoration: none;
+  color: #b1b3b9;
+  font-size: 12px;
+  border-left: 1px solid #b1b3b9;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+#footer .about ul li a:hover {
+  color: #009af3;
+}
+
+#footer .about ul .one a {
+  border-left: 0px;
+}
+
+#footer .catti {
+  text-align: center;
+  position: relative;
+}
+
+#footer .catti p {
+  margin-top: 10px;
+  color: #b1b3b9;
+  font-size: 14px;
+}
+
+#footer .catti p a {
+  text-decoration: none;
+  color: #b1b3b9;
+  margin-left: 15px;
+}
+
+#footer .catti .icp {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/footer_icon.png");
+  position: absolute;
+  top: 33px;
+  left: 970px;
+}
+
+#footer .catti .logo-down {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/logo_down.png");
+  position: absolute;
+  top: 119px;
+  left: 820px;
+}
+
+#footer .catti .our {
+  margin-top: 40px;
 }

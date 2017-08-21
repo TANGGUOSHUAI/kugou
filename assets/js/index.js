@@ -152,9 +152,10 @@ console.log(div);
 var len = a.length;
 for (var i = 0; i < len; i++) {
     a[i].onmouseover = function() {
-        for (var j = 0; j < len; j++) {
+        for (var j = 0; j < 4; j++) {
             a[j].className = '';
             div[j].className = 'hide';
+            // console.log(j);
         }
         var index = this.getAttribute('data-index');
         div[index].className = 'sex';
@@ -211,9 +212,10 @@ console.log(c);
 var len = b.length;
 for (var i = 0; i < len; i++) {
     b[i].onmouseover = function() {
-        for (var j = 0; j < len; j++) {
+        for (var j = 0; j < 4; j++) {
             c[j].className="hide";
             b[j].className="";
+            console.log(j);
         }
         var index = this.getAttribute('data-index');
         c[index].className="detailsone";
@@ -253,7 +255,7 @@ console.log(e);
 var len = d.length;
 for (var i = 0; i < len; i++) {
     f[i].onmouseover = function() {
-        for (var j = 0; j < len; j++) {
+        for (var j = 0; j < 4; j++) {
             g[j].className="remove";
             f[j].className="";
         }
