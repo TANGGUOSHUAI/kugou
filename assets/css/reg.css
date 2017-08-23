@@ -10,7 +10,6 @@ ul {
 #container {
   width: 100%;
   min-height: 900px;
-  border: 1px solid red;
   overflow: hidden;
   z-index: 1;
 }
@@ -156,6 +155,7 @@ ul {
   border-right: 1px solid #54ADE7;
   border-bottom: 1px solid #54ADE7;
   box-shadow: 0 0 10px #ccc;
+  color: #474747;
 }
 
 #container #content .title {
@@ -172,4 +172,244 @@ ul {
   margin: 0 auto;
   margin-top: 29px;
   background: url("../images/kg_lgn.png") no-repeat -348px -50px;
+}
+
+#container #content table {
+  width: 530px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#container #content table .phone td {
+  position: relative;
+}
+
+#container #content table .phone td input {
+  width: 181px;
+  height: 30px;
+  margin-left: 5px;
+  padding-left: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  background: #F3F3F3;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 80px;
+}
+
+#container #content table .phone td .wrong {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 16px;
+}
+
+#container #content table .phone td .counter {
+  width: 150px;
+  height: 30px;
+}
+
+#container #content table .message td {
+  position: relative;
+}
+
+#container #content table .message td input {
+  width: 51px;
+  height: 30px;
+  margin-left: 5px;
+  padding-left: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  background: #F3F3F3;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 80px;
+}
+
+#container #content table .message td .messagea {
+  width: 60px;
+  height: 36px;
+  background: #bbb;
+  border-radius: 5%;
+  position: absolute;
+  left: -140px;
+  top: 22px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+#container #content table .mima td {
+  position: relative;
+}
+
+#container #content table .mima td input {
+  width: 181px;
+  height: 30px;
+  margin-left: 5px;
+  padding-left: 5px;
+  margin-left: 37px;
+  outline: none;
+  border: 1px solid #ccc;
+  background: #F3F3F3;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 80px;
+}
+
+#container #content table .mima td .wrong {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 16px;
+}
+
+#container #content table .mima td .counter {
+  width: 150px;
+  height: 30px;
+}
+
+#container #content table .queren td {
+  position: relative;
+}
+
+#container #content table .queren td input {
+  width: 181px;
+  height: 30px;
+  margin-left: 5px;
+  padding-left: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  background: #F3F3F3;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 80px;
+}
+
+#container #content table .queren td .wrong {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 16px;
+}
+
+#container #content table .queren td .counter {
+  width: 150px;
+  height: 30px;
+}
+
+#container #content table .sex td input:first-child {
+  margin-left: 40px;
+}
+
+#container #content table .sex td input:last-child {
+  margin-left: 20px;
+}
+
+#container #content table .deal td {
+  width: 420px;
+  font-size: 13px;
+}
+
+#container #content table .deal td input {
+  margin-left: 88px;
+}
+
+#container #content table .deal td a {
+  color: #54ade7;
+}
+
+#container #content table .enroll .enrolla {
+  width: 94px;
+  height: 40px;
+  background: #3db9ec;
+  border-radius: 5%;
+  cursor: pointer;
+  margin-left: 88px;
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#footer {
+  width: 100%;
+  height: 298px;
+  background: #2C323B;
+  margin-top: 100px;
+}
+
+#footer .about {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #3d424a;
+}
+
+#footer .about ul {
+  margin-left: 100px;
+}
+
+#footer .about ul li {
+  float: left;
+  line-height: 50px;
+}
+
+#footer .about ul li a {
+  text-decoration: none;
+  color: #b1b3b9;
+  font-size: 12px;
+  border-left: 1px solid #b1b3b9;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+#footer .about ul li a:hover {
+  color: #009af3;
+}
+
+#footer .about ul .one a {
+  border-left: 0px;
+}
+
+#footer .catti {
+  text-align: center;
+  position: relative;
+}
+
+#footer .catti p {
+  margin-top: 10px;
+  color: #b1b3b9;
+  font-size: 14px;
+}
+
+#footer .catti p a {
+  text-decoration: none;
+  color: #b1b3b9;
+  margin-left: 15px;
+}
+
+#footer .catti .icp {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/footer_icon.png");
+  position: absolute;
+  top: 33px;
+  left: 970px;
+}
+
+#footer .catti .logo-down {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/logo_down.png");
+  position: absolute;
+  top: 119px;
+  left: 820px;
+}
+
+#footer .catti .our {
+  margin-top: 40px;
 }

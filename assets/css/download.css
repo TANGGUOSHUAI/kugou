@@ -1,0 +1,1475 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#container {
+  width: 100%;
+  min-height: 2500px;
+  overflow: hidden;
+}
+
+.header {
+  width: 1000px;
+  height: 78px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header .logo {
+  display: inline-block;
+  width: 153px;
+  height: 37px;
+  background: url("../images/logo.png");
+  margin-top: 20px;
+}
+
+.header .searbox {
+  width: 300px;
+  height: 36px;
+  border: 1px solid #ccc;
+  margin-left: 190px;
+  margin-top: -39px;
+}
+
+.header .searbox .sear {
+  width: 249px;
+  height: 34px;
+  border: none;
+  margin-left: 14px;
+  outline: none;
+}
+
+.header .searbox .sear-btn {
+  width: 34px;
+  height: 34px;
+  margin-top: -34px;
+  margin-left: 265px;
+}
+
+.header .searbox .sear-btn a {
+  width: 34px;
+  height: 34px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.header .searbox .icon-sousuo1 {
+  font-size: 18px;
+  color: #707070;
+}
+
+.header .searbox .icon-sousuo1:hover {
+  color: #0C8ED9;
+}
+
+.header .topmenu {
+  width: 262px;
+  height: 19px;
+  border-right: 1px solid #e6e6e6;
+  margin-left: 600px;
+  margin-top: -30px;
+}
+
+.header .topmenu li {
+  float: left;
+  padding: 0 15px 0 15px;
+  font-size: 13px;
+}
+
+.header .topmenu li a {
+  text-decoration: none;
+  color: #777;
+}
+
+.header .topmenu li a:hover {
+  color: #009af3;
+}
+
+.header .login {
+  display: inline-block;
+  width: 48px;
+  height: 28px;
+  border: 1px solid #169af3;
+  background-color: #169af3;
+  border-radius: 5%;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.header .login:hover {
+  background: #158fe1;
+}
+
+.header .register {
+  display: inline-block;
+  width: 48px;
+  margin-left: 5px;
+  height: 28px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5%;
+  text-decoration: none;
+  color: #777;
+  font-size: 13px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.header .register:hover {
+  color: #169af3;
+  border: 1px solid #169af3;
+}
+
+.header .btn {
+  margin-left: 890px;
+  margin-top: -25px;
+}
+
+#nav {
+  width: 100%;
+  height: 55px;
+  background: #2c323b;
+  display: flex;
+}
+
+#nav .navleft {
+  width: 445px;
+  height: 100%;
+  margin-left: 130px;
+}
+
+#nav .navleft li {
+  width: 80px;
+  height: 100%;
+  line-height: 55px;
+  float: left;
+  text-align: center;
+}
+
+#nav .navleft li > a {
+  display: block;
+  text-decoration: none;
+  color: #ddd;
+}
+
+#nav .navleft li a:hover {
+  color: white;
+}
+
+#nav .navleft li .first {
+  color: white;
+}
+
+#nav .navleft li:first-child {
+  width: 92px;
+  margin-left: 4px;
+}
+
+#nav .navleft li:first-child:hover {
+  background: #0c8ed9;
+}
+
+#nav .navleft li:nth-of-type(2) {
+  width: 92px;
+}
+
+#nav .navleft li:nth-of-type(2):hover {
+  background: #0c8ed9;
+}
+
+#nav .navleft li:nth-of-type(3) {
+  width: 140px;
+  background: #0c8ed9;
+}
+
+#nav .navleft li:nth-of-type(3):hover {
+  background: #0c8ed9;
+}
+
+#nav .navleft li:nth-of-type(4) {
+  width: 113px;
+}
+
+#nav .navleft li:nth-of-type(4):hover {
+  background: #0c8ed9;
+}
+
+#nav .navleft li:nth-of-type(4):hover .select {
+  display: block;
+}
+
+#nav .navleft .select {
+  width: 113px;
+  height: 141px;
+  margin-top: -2px;
+  display: none;
+  background: #252a32;
+  z-index: 9999;
+  position: absolute;
+}
+
+#nav .navleft .select > a {
+  margin-top: 0px;
+  display: block;
+  border-top: 1px solid #252a32;
+  width: 113px;
+  height: 34px;
+  text-align: center;
+  line-height: 36px;
+  color: #ddd;
+}
+
+#nav .navleft .select > a:hover {
+  background: #2d343d;
+  border-top: 1px solid #383d44;
+}
+
+#nav .navright {
+  width: 486px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+#nav .navright > li {
+  float: left;
+  line-height: 35px;
+  margin-left: 30px;
+}
+
+#nav .navright > li > a {
+  text-decoration: none;
+  color: #bbb;
+  font-size: 13px;
+}
+
+#nav .navright > li > a i {
+  padding-right: 5px;
+}
+
+#nav .navright > li a:hover {
+  color: #14a9ff;
+}
+
+#nav .navright > li .iconfont {
+  font-size: 14px;
+}
+
+#hyperlinks {
+  width: 78%;
+  height: 40px;
+  margin: 0 auto;
+  color: #999;
+  font-size: 14px;
+  padding-left: 2%;
+  line-height: 40px;
+  background: white;
+}
+
+#hyperlinks a {
+  text-decoration: none;
+  color: #999;
+}
+
+#hyperlinks a:hover {
+  color: #0c8ed9;
+}
+
+#content {
+  width: 100%;
+  min-height: 355px;
+  background: #f8f8f8;
+}
+
+#content .contentone {
+  width: 1000px;
+  height: 355px;
+  margin: 0 auto;
+}
+
+#content .contentone div {
+  margin-left: 25px;
+  margin-top: 47px;
+  box-shadow: 0px 0px 1px #ccc;
+}
+
+#content .contentone div:hover {
+  box-shadow: 0px 0px 20px #ccc;
+}
+
+#content .contentone div:hover a p {
+  color: #0c8ed9;
+}
+
+#content .contentone .pc {
+  float: left;
+  width: 300px;
+  height: 255px;
+  background: #fff;
+  position: relative;
+}
+
+#content .contentone .pc .versions {
+  color: #c3c3c3;
+  font-size: 14px;
+  position: absolute;
+  top: 15px;
+  right: 16px;
+}
+
+#content .contentone .pc a {
+  display: inline-block;
+  width: 280px;
+  height: 115px;
+  margin-left: 9px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #333;
+}
+
+#content .contentone .pc a img {
+  margin-left: 108px;
+}
+
+#content .contentone .pc a p {
+  margin-left: 106px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+#content .contentone .pc p {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 87px;
+  margin-top: 8px;
+}
+
+#content .contentone .pc .btn {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 180px;
+  height: 36px;
+  background: #28a9f3;
+}
+
+#content .contentone .pc .btn span {
+  padding-left: 5px;
+  color: white;
+  line-height: 34px;
+  font-size: 15px;
+}
+
+#content .contentone .pc .btn span:first-child {
+  margin-left: 43px;
+  font-size: 18px;
+}
+
+#content .contentone .pc .btn span:last-child {
+  font-size: 14px;
+}
+
+#content .contentone .pc .btn:hover {
+  background: #0c8ed9;
+  box-shadow: none;
+}
+
+#content .contentone .phone {
+  float: left;
+  width: 300px;
+  height: 255px;
+  background: #fff;
+  position: relative;
+}
+
+#content .contentone .phone .versions {
+  color: #c3c3c3;
+  font-size: 14px;
+  position: absolute;
+  top: 15px;
+  right: 16px;
+}
+
+#content .contentone .phone a {
+  display: inline-block;
+  width: 280px;
+  height: 115px;
+  margin-left: 9px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #333;
+}
+
+#content .contentone .phone a img {
+  margin-left: 108px;
+}
+
+#content .contentone .phone a p {
+  margin-left: 78px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+#content .contentone .phone p {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 87px;
+  margin-top: 8px;
+}
+
+#content .contentone .phone .btn {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 180px;
+  height: 36px;
+  background: #28a9f3;
+}
+
+#content .contentone .phone .btn span {
+  padding-left: 5px;
+  color: white;
+  line-height: 34px;
+  font-size: 15px;
+}
+
+#content .contentone .phone .btn span:first-child {
+  margin-left: 43px;
+  font-size: 18px;
+}
+
+#content .contentone .phone .btn span:last-child {
+  font-size: 14px;
+}
+
+#content .contentone .phone .btn:hover {
+  background: #0c8ed9;
+  box-shadow: none;
+}
+
+#content .contentone .iphone {
+  float: left;
+  width: 300px;
+  height: 255px;
+  background: #fff;
+  position: relative;
+}
+
+#content .contentone .iphone .versions {
+  color: #c3c3c3;
+  font-size: 14px;
+  position: absolute;
+  top: 15px;
+  right: 16px;
+}
+
+#content .contentone .iphone a {
+  display: inline-block;
+  width: 280px;
+  height: 115px;
+  margin-left: 9px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #333;
+}
+
+#content .contentone .iphone a img {
+  margin-left: 108px;
+}
+
+#content .contentone .iphone a p {
+  margin-left: 78px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+#content .contentone .iphone p {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 87px;
+  margin-top: 8px;
+}
+
+#content .contentone .iphone .btn {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 180px;
+  height: 36px;
+  background: #28a9f3;
+}
+
+#content .contentone .iphone .btn span {
+  padding-left: 5px;
+  color: white;
+  line-height: 34px;
+  font-size: 15px;
+}
+
+#content .contentone .iphone .btn span:first-child {
+  margin-left: 43px;
+  font-size: 18px;
+}
+
+#content .contentone .iphone .btn span:last-child {
+  font-size: 14px;
+}
+
+#content .contentone .iphone .btn:hover {
+  background: #0c8ed9;
+  box-shadow: none;
+}
+
+#contenta {
+  width: 100%;
+  min-height: 820px;
+  background: #eeeff0;
+}
+
+#contenta .list-one {
+  margin-top: 20px;
+  width: 1000px;
+  height: 147px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+#contenta .list-one div {
+  width: 300px;
+  height: 124px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 16px;
+  margin-left: 17px;
+  background: white;
+  box-shadow: 0px 1px 2px #999;
+}
+
+#contenta .list-one div:hover {
+  box-shadow: 0 0 10px #999;
+}
+
+#contenta .list-one div:hover .title {
+  color: #28a9f3;
+}
+
+#contenta .list-one .one {
+  position: relative;
+}
+
+#contenta .list-one .one a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-one .one .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-one .one span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-one .one span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-one .one .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-one .one .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-one .two {
+  position: relative;
+}
+
+#contenta .list-one .two a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-one .two .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-one .two span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-one .two span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-one .two .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-one .two .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-one .three {
+  position: relative;
+}
+
+#contenta .list-one .three a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-one .three .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-one .three span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-one .three span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-one .three .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-one .three .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-two {
+  margin-top: 20px;
+  width: 1000px;
+  height: 147px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+#contenta .list-two div {
+  width: 300px;
+  height: 124px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-left: 17px;
+  background: white;
+  box-shadow: 0px 1px 2px #999;
+}
+
+#contenta .list-two div:hover {
+  box-shadow: 0 0 10px #999;
+}
+
+#contenta .list-two div:hover .title {
+  color: #28a9f3;
+}
+
+#contenta .list-two .one {
+  position: relative;
+}
+
+#contenta .list-two .one a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-two .one .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-two .one span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-two .one span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-two .one .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-two .one .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-two .two {
+  position: relative;
+}
+
+#contenta .list-two .two a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-two .two .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-two .two span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-two .two span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-two .two .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-two .two .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-two .three {
+  position: relative;
+}
+
+#contenta .list-two .three a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-two .three .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-two .three span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-two .three span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-two .three .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-two .three .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-three {
+  margin-top: 20px;
+  width: 1000px;
+  height: 147px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+#contenta .list-three div {
+  width: 300px;
+  height: 124px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-left: 17px;
+  background: white;
+  box-shadow: 0px 1px 2px #999;
+}
+
+#contenta .list-three div:hover {
+  box-shadow: 0 0 10px #999;
+}
+
+#contenta .list-three div:hover .title {
+  color: #28a9f3;
+}
+
+#contenta .list-three .one {
+  position: relative;
+}
+
+#contenta .list-three .one a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-three .one .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-three .one span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-three .one span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-three .one .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-three .one .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-three .two {
+  position: relative;
+}
+
+#contenta .list-three .two a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-three .two .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-three .two span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-three .two span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-three .two .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-three .two .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-three .three {
+  position: relative;
+}
+
+#contenta .list-three .three a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-three .three .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-three .three span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-three .three span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-three .three .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-three .three .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-four {
+  margin-top: 20px;
+  width: 1000px;
+  height: 147px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+#contenta .list-four div {
+  width: 300px;
+  height: 124px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-left: 17px;
+  background: white;
+  box-shadow: 0px 1px 2px #999;
+}
+
+#contenta .list-four div:hover {
+  box-shadow: 0 0 10px #999;
+}
+
+#contenta .list-four div:hover .title {
+  color: #28a9f3;
+}
+
+#contenta .list-four .one {
+  position: relative;
+}
+
+#contenta .list-four .one a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-four .one .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-four .one span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-four .one span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-four .one .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-four .one .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-four .two {
+  position: relative;
+}
+
+#contenta .list-four .two a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-four .two .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-four .two span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-four .two span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-four .two .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-four .two .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-four .three {
+  position: relative;
+}
+
+#contenta .list-four .three a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-four .three .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-four .three span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-four .three span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-four .three .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-four .three .btn:hover {
+  background: #0090e2;
+}
+
+#contenta .list-five {
+  margin-top: 20px;
+  width: 1000px;
+  height: 147px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+#contenta .list-five div {
+  width: 300px;
+  height: 124px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-left: 17px;
+  background: white;
+  box-shadow: 0px 1px 2px #999;
+}
+
+#contenta .list-five div:hover {
+  box-shadow: 0 0 10px #999;
+}
+
+#contenta .list-five div:hover .title {
+  color: #28a9f3;
+}
+
+#contenta .list-five .one {
+  position: relative;
+}
+
+#contenta .list-five .one a {
+  display: inline-block;
+  width: 110px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  text-align: center;
+  line-height: 132px;
+}
+
+#contenta .list-five .one .title {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+#contenta .list-five .one span {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenta .list-five .one span:last-child {
+  margin: 0 auto;
+  position: absolute;
+  top: 83px;
+  right: 65px;
+}
+
+#contenta .list-five .one .btn {
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  background: #28a9f3;
+  position: absolute;
+  line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  left: 100px;
+  top: 80px;
+}
+
+#contenta .list-five .one .btn:hover {
+  background: #0090e2;
+}
+
+#footer {
+  width: 100%;
+  height: 298px;
+  background: #2C323B;
+}
+
+#footer .about {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #3d424a;
+}
+
+#footer .about ul {
+  margin-left: 100px;
+}
+
+#footer .about ul li {
+  float: left;
+  line-height: 50px;
+}
+
+#footer .about ul li a {
+  text-decoration: none;
+  color: #b1b3b9;
+  font-size: 12px;
+  border-left: 1px solid #b1b3b9;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+#footer .about ul li a:hover {
+  color: #009af3;
+}
+
+#footer .about ul .one a {
+  border-left: 0px;
+}
+
+#footer .catti {
+  text-align: center;
+  position: relative;
+}
+
+#footer .catti p {
+  margin-top: 10px;
+  color: #b1b3b9;
+  font-size: 14px;
+}
+
+#footer .catti p a {
+  text-decoration: none;
+  color: #b1b3b9;
+  margin-left: 15px;
+}
+
+#footer .catti .icp {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/footer_icon.png");
+  position: absolute;
+  top: 33px;
+  left: 970px;
+}
+
+#footer .catti .logo-down {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/logo_down.png");
+  position: absolute;
+  top: 119px;
+  left: 820px;
+}
+
+#footer .catti .our {
+  margin-top: 40px;
+}

@@ -23,17 +23,15 @@ $('.one').click(function(){
 	if(num%2==0){
 		$(this).css('background-position','-179px -179px');
 		$('.two').css('background-position','-179px -179px');
-
 	}else{
 		$(this).css('background-position','-179px -149px');
 		$('.two').css('background-position','-179px -149px');
 	}
 })
 
-
-	var aum = 0;
-$('.two').click(function(){
 	var sum = 1;
+$('.two').click(function(){
+	var aum = 0;
 	sum++;
 	aum++;
 	// console.log($('.two').length);
@@ -49,7 +47,7 @@ $('.two').click(function(){
 		console.log('111');
 	}else if(aum%2!=0){
 		$('.one').css('background-position','-179px -179px');
-		// $(this).css('background-position','-179px -179px');
+		$(this).css('background-position','-179px -179px');
 		console.log('2222');
 
 	}
