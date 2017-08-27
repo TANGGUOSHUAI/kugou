@@ -155,7 +155,7 @@ ul{
 
 			table{
 				width:530px;
-				height:400px;
+				height:450px;
 				margin:0 auto;
 				.phone{
 					td{
@@ -172,17 +172,54 @@ ul{
 							padding-bottom:4px;
 							padding-right:80px;
 							}
+							input:hover{
+								border:1px solid #54ade7;
+								background:rgba(10,193,252,.1);
+							}
 							.wrong{
-								width:150px;
-								height:30px;
-								// border:1px solid red;
+								width:170px;
+								height:40px;
 								position:absolute;
-								top:16px;
+								top:13px;
+								font-size:14px;
+								text-align:center;
+								line-height:37px;
+								background:#fadada;
+								color:red;
+								padding-left:5px;
+								display:none;
+								span{
+									position:absolute;
+									top:13px;
+									left:5px;
+									display:inline-block;
+									width:12px;
+									height:12px;
+									background:url('../images/kg_lgn.png') no-repeat 0px -350px;
+								}
 							}
 							.counter{
+								position:absolute;
+								top:12px;
 								width:150px;
-								height:30px;
-								// border:1px solid red;
+								height:40px;
+								color:#7b7b7b;
+								font-size:15px;
+								line-height:38px;
+								display:none;
+							}
+							.right{
+								position:absolute;
+								top:23px;
+								left:0;
+								display:none;
+								span{
+									display:inline-block;
+									width:12px;
+									height:12px;
+									background:url('../images/kg_lgn.png') no-repeat -25px -350px
+
+								}
 							}
 						}
 					}
@@ -201,19 +238,26 @@ ul{
 							padding-bottom:4px;
 							padding-right:80px;
 							}
+							input:hover{
+								border:1px solid #54ade7;
+								background:rgba(10,193,252,.1);
+							}
 							.messagea{
 								width:60px;
 								height:36px;
+								display:inline-block;
 								background:#bbb;
 								border-radius:5%;
 								position:absolute;
-								left:-140px;
-								top:22px;
+								left:-130px;
+								top:15px;
 								color:white;
 								font-size:12px;
 								text-align:center;
 								line-height:36px;
-								cursor: pointer;
+							}
+							.active{
+								 cursor:pointer;
 							}
 						}
 					}
@@ -233,17 +277,51 @@ ul{
 							padding-bottom:4px;
 							padding-right:80px;
 							}
+						input:hover{
+							// border:1px solid #54ade7;
+							// background:rgba(10,193,252,.1);
+							}
 							.wrong{
-								width:150px;
-								height:30px;
-								// border:1px solid red;
+								width:200px;
+								height:40px;
 								position:absolute;
-								top:16px;
+								top:13px;
+								font-size:14px;
+								text-align:center;
+								line-height:37px;
+								background:#fadada;
+								color:red;
+								padding-left:5px;
+								display:none;
+								span{
+									position:absolute;
+									top:13px;
+									left:5px;
+									display:inline-block;
+									width:12px;
+									height:12px;
+									background:url('../images/kg_lgn.png') no-repeat 0px -350px;
+								}
 							}
 							.counter{
-								width:150px;
+								width:160px;
 								height:30px;
-								// border:1px solid red;
+								font-size:13px;
+								color:#7b7b7b;
+								margin-bottom:13px;
+							}
+							.right{
+								position:absolute;
+								top:23px;
+								left:0;
+								display:none;
+								span{
+									display:inline-block;
+									width:12px;
+									height:12px;
+									background:url('../images/kg_lgn.png') no-repeat -25px -350px
+
+								}
 							}
 						}
 					}
@@ -262,17 +340,52 @@ ul{
 							padding-bottom:4px;
 							padding-right:80px;
 							}
+							input:hover{
+								border:1px solid #54ade7;
+								background:rgba(10,193,252,.1);
+							}
 							.wrong{
-								width:150px;
-								height:30px;
-								// border:1px solid red;
+								width:240px;
+								height:40px;
 								position:absolute;
-								top:16px;
+								top:13px;
+								font-size:14px;
+								text-align:center;
+								line-height:37px;
+								background:#fadada;
+								color:red;
+								padding-left:5px;
+								display:none;
+								span{
+									position:absolute;
+									top:13px;
+									left:5px;
+									display:inline-block;
+									width:12px;
+									height:12px;
+									background:url('../images/kg_lgn.png') no-repeat 0px -350px;
+								}
 							}
 							.counter{
 								width:150px;
 								height:30px;
-								// border:1px solid red;
+								font-size:13px;
+								color:#7b7b7b;
+								margin-top:13px;
+								// display:none;
+							}
+							.right{
+								position:absolute;
+								top:23px;
+								left:0;
+								display:none;
+								span{
+									display:inline-block;
+									width:12px;
+									height:12px;
+									background:url('../images/kg_lgn.png') no-repeat -25px -350px
+
+								}
 							}
 						}
 					}
@@ -311,12 +424,111 @@ ul{
 							text-align:center;
 							line-height:40px;
 						}
+						.enrolla:hover{
+							background:#0583EA;
+						}
 						
 					}
 
 				}
+			.risk{
+				width:300px;
+				height:20px;
+				position:absolute;
+				top:425px;
+				left:450px;
+				color:#7b7b7b;
+				font-size:12px;
+				line-height:20px;
+				div{
+					float:left;
+					margin-left:7px;
+					line-height:20px;
+					margin-right:-3px;
+				}
+				.ruo{
+					float:left;
+					width:54px;
+					height:12px;
+					background:#e0e0e0;
+					margin-top:4px;
+					position:relative;
+					z-index:1;
+					div{
+						width:0px;
+						height:100%;
+						background:#a9d6f3;
+						transition:width 1s ease 0s;
+					}
+
+				}
+				.zhong{
+					float:left;
+					width:54px;
+					height:12px;
+					background:#e0e0e0;
+					margin-top:4px;
+					position:relative;
+					z-index:1;
+					div{
+						width:0px;
+						height:100%;
+						background:#a9d6f3;
+						transition:width 1s ease 0s;
+
+					}
+				}
+				.qiang{
+					float:left;
+					width:54px;
+					height:12px;
+					background:#e0e0e0;
+					margin-top:4px;
+					margin-right:3px;
+					position:relative;
+					z-index:1;
+					div{
+						width:0px;
+						height:100%;
+						background:#a9d6f3;
+						transition:width 1s ease 0s;
+
+					}
+				}
+				
+			}
 			
 	}
+}
+#zhong{
+	position:absolute;
+	top:0px;
+	left:-7px;
+	width:0px;
+	height:12px;
+	background:red;
+	z-index:99;
+	transition:width 1s;
+}
+#ruo{
+	position:absolute;
+	top:0px;
+	left:-7px;
+	width:0px;
+	height:12px;
+	background:red;
+	z-index:99;
+	transition:width 1s;
+}
+#qiang{
+	position:absolute;
+	top:0px;
+	left:-7px;
+	width:0px;
+	height:12px;
+	background:red;
+	z-index:99;
+	transition:width 1s;
 }
 #footer{
     width:100%;

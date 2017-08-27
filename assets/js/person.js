@@ -1,0 +1,10 @@
+$('.btn').mouseover(function(){
+	$('.numselect').css('display','block');
+}).mouseout(function(){
+	$('.numselect').css('display','none');
+})
+$('.numselect').mouseover(function(){
+	$(this).css('display','block');
+}).mouseout(function(){
+	$(this).css('display','none');
+})
